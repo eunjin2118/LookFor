@@ -12,6 +12,9 @@
         android:theme="@style/Theme.LookFor"
         tools:targetApi="31">
         <activity
+            android:name=".ChooseMenu"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
@@ -26,7 +29,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>
